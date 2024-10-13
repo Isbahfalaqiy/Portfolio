@@ -123,7 +123,7 @@ const Content4 = () => {
                   </svg>
                 </Link>
                 <Link
-                  to="https://www.tiktok.com/@yourusername" 
+                  to="https://www.tiktok.com/@miffalaqiy" 
                   className="ml-4 text-gray-500 mt-[2px]"
                 >
                   <svg
