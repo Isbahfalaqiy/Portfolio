@@ -24,7 +24,7 @@ const ContentAbout = () => {
 	return (
 		<div className="mt-32">
 			<div className="px-5 md:px-20 lg:px-20">
-				<div className="container bg-green-500 rounded-[20px] opacity-88">
+				<div className="container bg-green-500 rounded-[20px] opacity-">
 					{/* Header section with title and line */}
 					<div className="flex items-center w-[310px] md:w-[345px] lg:w-[475px] mt-10 pt-10" data-aos="fade-down" data-aos-duration="700">
 						<h2 className="font-bold ml-5 md:ml-10 text-white text-2xl">
