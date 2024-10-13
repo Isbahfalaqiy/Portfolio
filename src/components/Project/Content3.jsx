@@ -3,6 +3,9 @@ import axios from "axios";
 import "boxicons/css/boxicons.min.css"; // Import Boxicons CSS
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS animations
+import portfolioImage from '../../assets/portfolio.jpg'; // Import images
+import prelovedImage from '../../assets/preloved.jpg'; // Import images
+
 AOS.init();
 
 const Content3 = () => {
@@ -27,27 +30,36 @@ const Content3 = () => {
       </div>
 
       <div className="px-5 md:px-15 lg:px-20 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 px-5 md:px-10" >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 px-5 md:px-10">
           {/* Responsive grid */}
           {projects &&
             projects.map((project) => (
               <div
                 key={project.id}
-                className="border rounded-md p-5 cursor-pointer bg-green-500" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="500"
+                className="border rounded-md p-5 cursor-pointer bg-green-500"
+                data-aos="zoom-in"
+                data-aos-duration="500"
+                data-aos-delay="500"
               >
                 <div className="flex flex-col">
                   <h1 className="mb-5 text-xl font-Poppins font-normal text-white text-center">
                     {project.title}
                   </h1>
                   <img
-                    src={project.image}
+                    src={
+                      project.id === 1
+                        ? portfolioImage
+                        : project.id === 2
+                        ? prelovedImage
+                        : ""
+                    }
                     alt={project.title}
                     className="w-full rounded-md"
                   />
                   <h2 className="text-[14px] mt-5 text-[#f4f4f4] font-Poppins font-normal">
                     {project.description}
                   </h2>
-                  <h3 className="text-[16px] mt-5  font-Poppins text-[#F4F6FF] font-semibold">
+                  <h3 className="text-[16px] mt-5 font-Poppins text-[#F4F6FF] font-semibold">
                     {project.stack}
                   </h3>
                   {/* Use tag <a> for external links */}
