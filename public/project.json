@@ -1,0 +1,20 @@
+{
+  "Projects": [
+    {
+      "id": 1,
+      "title": "My Portfolio",
+      "description": "This website serves as a platform for me to showcase my profile, projects, and technical skills.",
+      "image": "src/assets/portfolio.jpg",
+      "stack": "React Js, Tailwind CSS",
+      "link": "https://myportfoliov3.vercel.app/"
+    },
+    {
+      "id": 2,
+      "title": "Preloved E-Commerce",
+      "description": "This e-commerce website focuses on selling preloved items. Feel free to contact me if you're interested in collaborating or have any questions.",
+      "image": "src/assets/preloved.jpg",
+      "stack": "Html, Css, Js",
+      "link": "https://preloved-olk2c83yf-isbahfalaqiys-projects.vercel.app/"
+    }
+  ]
+}
