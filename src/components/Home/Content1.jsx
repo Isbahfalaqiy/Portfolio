@@ -10,7 +10,7 @@ const Content1 = () => {
     <div>
       <main className="flex flex-col-reverse lg:flex-row min-h-[65vh] px-5 lg:px-52 py-10 justify-around items-center lg:items-start mt-24">
         {/* Content text */}
-        <div data-aos="fade-up-right"   data-aos-delay="100" data-aos-duration="1000"  className="flex flex-col mt-10 lg:mt-32 text-center lg:text-left">
+        <div  data-aos="fade-right" data-aos-delay="100" data-aos-duration="100"  className="flex flex-col mt-10 lg:mt-32 text-center lg:text-left">
           <h2 className="text-[15px] lg:text-[17px] font-semibold text-[#C5D86D]">Hello World, I'm</h2>
           <h1 className="text-4xl lg:text-5xl mt-2 mb-1 font-Poppins font-semibold">IsbahFalaqiy</h1>
           <TypeAnimation
@@ -35,7 +35,7 @@ const Content1 = () => {
 
         {/* Content image */}
         <div className="flex mt-10 lg:mt-0">
-          <div data-aos="fade-down-left" data-aos-delay="50" data-aos-duration="2000"  className="rounded-full border-[4px] lg:border-[6px] border-[#78e9a3] ">
+          <div data-aos="fade-down-left" data-aos-delay="100" data-aos-duration="100"  className="rounded-full border-[4px] lg:border-[6px] border-[#78e9a3] ">
             <img src={icon} alt="" className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] lg:w-[400px] lg:h-[400px] object-cover rounded-full" />
           </div>
         </div>
