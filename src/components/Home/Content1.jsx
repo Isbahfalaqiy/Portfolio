@@ -12,7 +12,7 @@ const Content1 = () => {
         {/* Content text */}
         <div data-aos="fade-up-right"   data-aos-delay="100" data-aos-duration="1000"  className="flex flex-col mt-10 lg:mt-32 text-center lg:text-left">
           <h2 className="text-[15px] lg:text-[17px] font-semibold text-[#C5D86D]">Hello World, I'm</h2>
-          <h1 className="text-4xl lg:text-5xl mt-2 mb-1 font-Poppins font-semibold">IsbahFalaqiy.log();</h1>
+          <h1 className="text-4xl lg:text-5xl mt-2 mb-1 font-Poppins font-semibold">IsbahFalaqiy</h1>
           <TypeAnimation
             sequence={["Informatics Student", 1000, "Front-End Enthusiast", 1000, "Web Developer Enthusiast", 1000]}
             wrapper="span"

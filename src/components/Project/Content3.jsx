@@ -3,7 +3,7 @@ import axios from "axios";
 import "boxicons/css/boxicons.min.css"; // Import Boxicons CSS
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS animations
-import portfolioImage from '../../assets/portfolio.jpg'; // Import images
+import portfolioImage from '../../assets/isbah.jpg'; // Import images
 import prelovedImage from '../../assets/preloved.jpg'; // Import images
 
 AOS.init();

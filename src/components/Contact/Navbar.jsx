@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed top-0 w-full z-50 shadow-lg bg-white text-black box-border">
+    <div className="fixed top-0 w-full z-50 shadow-lg bg-white text-black box-border m">
       {/* Navbar for larger screens */}
       <div className="hidden lg:flex justify-between px-8 lg:px-20 py-8 items-center">
         <div className="logo text-[20px] font-Poppins font-semibold cursor-pointer hover:text-[#C5D86D]">isbahFalaqiy.log();</div>

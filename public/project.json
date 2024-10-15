@@ -4,7 +4,7 @@
       "id": 1,
       "title": "My Portfolio",
       "description": "This website serves as a platform for me to showcase my profile, projects, and technical skills.",
-      "image": "src/assets/portfolio.jpg",
+      "image": "src/assets/isbah.jpg",
       "stack": "React Js, Tailwind CSS",
       "link": "https://portfolioo-navy.vercel.app/"
     },

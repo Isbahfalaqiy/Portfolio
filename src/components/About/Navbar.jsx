@@ -21,7 +21,7 @@ const Navbar = () => {
       {/* Navbar for larger screens */}
       <div className="hidden lg:flex justify-between px-8 lg:px-20 py-8 items-center md:px-20">
         <div className="logo text-[20px] font-Poppins font-semibold cursor-pointer hover:text-[#C5D86D]">isbahFalaqiy.log();</div>
-        <ul className="flex gap-8  list-none font-Poppins font-semibold text-[15px] items-center">
+        <ul className="flex gap-8  list-none font-Poppins font-semibold text-[15px] items-center ">
           <li>
             <Link to="/" onClick={() => handleClick("Home")} className={`hover:text-[#C5D86D] ${activeLink === "Home" ? "border-b-4 border-[#C5D86D] text-[#C5D86D]" : ""}`}>
               Home

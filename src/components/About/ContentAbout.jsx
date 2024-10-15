@@ -23,8 +23,8 @@ const ContentAbout = () => {
 
 	return (
 		<div className="mt-32">
-			<div className="px-5 md:px-20 lg:px-20">
-				<div className="container bg-green-500 rounded-[20px] opacity-">
+			<div className="px-10 md:px-16 lg:px-20 w-full">
+				<div className="container bg-green-500 rounded-[20px] ">
 					{/* Header section with title and line */}
 					<div className="flex items-center w-[310px] md:w-[345px] lg:w-[475px] mt-10 pt-10" data-aos="fade-down" data-aos-duration="700">
 						<h2 className="font-bold ml-5 md:ml-10 text-white text-2xl">
@@ -40,7 +40,7 @@ const ContentAbout = () => {
 							<img
 								src={img1}
 								alt="Muhamad Isbah Falaqiy"
-								className="rounded-full w-[300px] h-[300px] md:w-[250px] md:h-[250px] lg:w-[350px] lg:h-[350px] ml-0 md:ml-10 "
+								className="rounded-full w-[250px] h-[250px] md:max-w-[280px] md:max-h-[250px] lg:maxw-[350px] lg:h-[350px] ml-0 md:ml-10 "
 							/>
 						</div>
 
